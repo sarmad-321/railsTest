@@ -8,7 +8,7 @@ gem "rails", "~> 7.0.4"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
-
+gem 'devise', '~> 4.9', '>= 4.9.3'
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
@@ -44,6 +44,10 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+gem 'bootstrap', '~> 4.1.1'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -72,3 +76,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "tailwindcss-rails", "~> 2.6"

@@ -26,6 +26,7 @@ gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
+gem 'hotwire-rails', '~> 0.1.0'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
@@ -47,6 +48,8 @@ gem "bootsnap", require: false
 gem 'bootstrap', '~> 4.1.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+
+gem "tailwindcss-rails", "~> 2.6"
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -77,4 +80,4 @@ group :test do
   gem "webdrivers"
 end
 
-gem "tailwindcss-rails", "~> 2.6"
+

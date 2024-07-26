@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @testVar = "sarmad"
+    @properties = Property.all;
   end
 end

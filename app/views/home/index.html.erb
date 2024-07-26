@@ -1,2 +1,11 @@
 <%= render "layouts/header" %>
-<h1>sarmad </h1>
+<% @properties.each do |property|%>
+<div>
+
+  <div>
+    <h4><%= property.name %></h4>
+    <p><%= property.address %></p>
+  </div>
+ <% end %>
+
+
